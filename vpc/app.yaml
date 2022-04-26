@@ -1,0 +1,12 @@
+# [START gae_python37_cloudsql_config]
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: sample
+  CLOUD_SQL_PASSWORD: Password123!
+  CLOUD_SQL_DATABASE_NAME: test
+  CLOUD_SQL_CONNECTION_NAME: yotube-demo-348104:us-central1:samplephp
+# [END gae_python37_cloudsql_config]
+
+vpc_access_connector:
+  name: "projects/yotube-demo-348104/locations/us-central1/connectors/connect-to-sql"

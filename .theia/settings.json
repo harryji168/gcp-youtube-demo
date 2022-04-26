@@ -1,0 +1,4 @@
+{
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.minimap.enabled": false
+}
